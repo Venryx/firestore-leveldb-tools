@@ -4,13 +4,13 @@ Documentation and tools for reading/converting Firestore gcloud (LevelDB) backup
 
 ### Setup
 
-1) Make sure Python 2.7 is installed, and present in your "PATH" environment variable. (or just supply the absolute path to its `python` executable in usage step 1)
+1) Make sure Python 2.7 is installed, and present in your `Path` environment variable. (or just supply the absolute path to its `python` executable in usage step 1)
 2) Clone/download this repo to disk.
 
 ### Usage
 
 1) Run `python ToJSON.py PATH_TO_FIRESTORE_BACKUP_FOLDER` (pass the direct parent folder of the "output-0", etc. files)
-2) A `Data.json` file will be created in the backup folder, containing an array of entries. Each entry is a document within one of the collections; the source collection must be inferred from the data shape for now.
+2) A `Data.json` file will be created in the backup folder, with the original database structure. (collections as json objects, their documents as keyed entries underneath)
 
 ### SDK Dependencies
 
