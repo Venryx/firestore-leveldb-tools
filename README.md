@@ -1,6 +1,6 @@
 # firestore-leveldb-tools
 
-Documentation and tools for reading/converting Firestore gcloud (LevelDB) backups.
+Documentation and tools for reading/converting Firestore gcloud (LevelDB) backups. (to create these backups, see [here](https://stackoverflow.com/a/51783326))
 
 ### Setup
 
