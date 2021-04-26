@@ -21,3 +21,7 @@ The `ToJSON.py` script relies on some modules within the google-cloud-sdk and ap
 * AppEngine SDK archive (included: `180/google_appengine_1.8.0.zip`): https://console.cloud.google.com/storage/browser/appengine-sdks/deprecated
 
 To use the alternate version downloaded, extract the archives, then replace the corresponding contents within the `SDKs` folder.
+
+### Alternatives
+
+* [firestore-export-json](https://github.com/labbots/firestore-export-json): Similar, but using some pip-installed dependencies. (and in Python 3)
